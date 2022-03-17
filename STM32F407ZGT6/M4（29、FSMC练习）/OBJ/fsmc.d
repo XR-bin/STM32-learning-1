@@ -1,0 +1,10 @@
+..\obj\fsmc.o: ..\HARDWARE\src\fsmc.c
+..\obj\fsmc.o: ..\SYSTEM\sys\stm32f4xx.h
+..\obj\fsmc.o: ..\SYSTEM\sys\core_cm4.h
+..\obj\fsmc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\fsmc.o: ..\SYSTEM\sys\core_cmInstr.h
+..\obj\fsmc.o: ..\SYSTEM\sys\core_cmFunc.h
+..\obj\fsmc.o: ..\SYSTEM\sys\core_cm4_simd.h
+..\obj\fsmc.o: ..\SYSTEM\sys\system_stm32f4xx.h
+..\obj\fsmc.o: ..\HARDWARE\inc\lcd.h
+..\obj\fsmc.o: ..\HARDWARE\inc\fsmc.h

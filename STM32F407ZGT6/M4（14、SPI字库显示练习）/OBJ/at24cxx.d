@@ -1,0 +1,12 @@
+..\obj\at24cxx.o: ..\HARDWARE\src\at24cxx.c
+..\obj\at24cxx.o: ..\SYSTEM\sys\stm32f4xx.h
+..\obj\at24cxx.o: ..\SYSTEM\sys\core_cm4.h
+..\obj\at24cxx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\at24cxx.o: ..\SYSTEM\sys\core_cmInstr.h
+..\obj\at24cxx.o: ..\SYSTEM\sys\core_cmFunc.h
+..\obj\at24cxx.o: ..\SYSTEM\sys\core_cm4_simd.h
+..\obj\at24cxx.o: ..\SYSTEM\sys\system_stm32f4xx.h
+..\obj\at24cxx.o: ..\HARDWARE\inc\at24cxx.h
+..\obj\at24cxx.o: ..\SYSTEM\delay\delay.h
+..\obj\at24cxx.o: ..\HARDWARE\inc\iic.h
+..\obj\at24cxx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

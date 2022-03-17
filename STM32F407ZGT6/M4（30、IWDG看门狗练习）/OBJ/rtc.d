@@ -1,0 +1,10 @@
+..\obj\rtc.o: ..\HARDWARE\src\rtc.c
+..\obj\rtc.o: ..\SYSTEM\sys\stm32f4xx.h
+..\obj\rtc.o: ..\SYSTEM\sys\core_cm4.h
+..\obj\rtc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\rtc.o: ..\SYSTEM\sys\core_cmInstr.h
+..\obj\rtc.o: ..\SYSTEM\sys\core_cmFunc.h
+..\obj\rtc.o: ..\SYSTEM\sys\core_cm4_simd.h
+..\obj\rtc.o: ..\SYSTEM\sys\system_stm32f4xx.h
+..\obj\rtc.o: ..\HARDWARE\inc\rtc.h
+..\obj\rtc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

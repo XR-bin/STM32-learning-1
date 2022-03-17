@@ -1,0 +1,9 @@
+..\obj\lcd.o: ..\HARDWARE\src\lcd.c
+..\obj\lcd.o: ..\SYSTEM\sys\sys.h
+..\obj\lcd.o: ..\SYSTEM\sys\stm32f10x.h
+..\obj\lcd.o: ..\SYSTEM\sys\core_cm3.h
+..\obj\lcd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\lcd.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\obj\lcd.o: ..\HARDWARE\inc\lcd.h
+..\obj\lcd.o: ..\SYSTEM\delay\delay.h
+..\obj\lcd.o: ..\HARDWARE\inc\font.h

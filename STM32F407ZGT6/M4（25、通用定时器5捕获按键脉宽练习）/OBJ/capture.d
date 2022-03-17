@@ -1,0 +1,9 @@
+..\obj\capture.o: ..\HARDWARE\src\capture.c
+..\obj\capture.o: ..\SYSTEM\sys\stm32f4xx.h
+..\obj\capture.o: ..\SYSTEM\sys\core_cm4.h
+..\obj\capture.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\capture.o: ..\SYSTEM\sys\core_cmInstr.h
+..\obj\capture.o: ..\SYSTEM\sys\core_cmFunc.h
+..\obj\capture.o: ..\SYSTEM\sys\core_cm4_simd.h
+..\obj\capture.o: ..\SYSTEM\sys\system_stm32f4xx.h
+..\obj\capture.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

@@ -1,0 +1,13 @@
+--cpu Cortex-M4.fp
+"..\obj\system_stm32f4xx.o"
+"..\obj\startup_stm32f40_41xxx.o"
+"..\obj\test.o"
+"..\obj\usart.o"
+"..\obj\nvic.o"
+"..\obj\beep.o"
+"..\obj\led.o"
+"..\obj\key.o"
+--strict --scatter "..\OBJ\test.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\test.map" -o ..\OBJ\test.axf
