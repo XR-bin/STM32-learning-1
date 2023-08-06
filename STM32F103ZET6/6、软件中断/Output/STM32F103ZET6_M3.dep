@@ -1,0 +1,84 @@
+Dependencies for Project 'STM32F103ZET6', Target 'M3': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\..\Drivers\Libraries\arm\startup_stm32f103xe.s)(0x5FFEEE4A)(--cpu Cortex-M3 -g --apcs=interwork -ID:\study\Keil_v5\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include--pd "__UVISION_VERSION SETA 535" --pd "STM32F10X_HD SETA 1"--list ..\..\output\startup_stm32f103xe.lst --xref -o ..\..\output\startup_stm32f103xe.o --depend ..\..\output\startup_stm32f103xe.d)
+F (..\..\User\main.c)(0x64CB64AB)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers -I ..\..\Drivers\BSP -I ..\..\Drivers\BSP\inc -I ..\..\Drivers\Libraries -I ..\..\Drivers\SYSTEM -I ..\..\Drivers\SYSTEM\inc -I ..\..\User -I ..\..\User\inc-ID:\study\Keil_v5\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="535" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\main.o --omf_browse ..\..\output\main.crf --depend ..\..\output\main.d)
+I (..\..\Drivers\SYSTEM\inc\sys.h)(0x64C37890)
+I (..\..\Drivers\Libraries\stm32f1xx.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\stm32f103xe.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\core_cm3.h)(0x5FFEEE4A)
+I (D:\study\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\Drivers\Libraries\cmsis_version.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\cmsis_compiler.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\cmsis_armcc.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\system_stm32f1xx.h)(0x5FFEEE4A)
+I (..\..\Drivers\SYSTEM\inc\delay.h)(0x64C378A2)
+I (..\..\Drivers\BSP\inc\led.h)(0x64C723C4)
+I (..\..\Drivers\BSP\inc\key.h)(0x64CB6519)
+I (..\..\Drivers\BSP\inc\exti.h)(0x64C7BF01)
+F (..\..\Drivers\SYSTEM\src\sys.c)(0x64CB64BF)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers -I ..\..\Drivers\BSP -I ..\..\Drivers\BSP\inc -I ..\..\Drivers\Libraries -I ..\..\Drivers\SYSTEM -I ..\..\Drivers\SYSTEM\inc -I ..\..\User -I ..\..\User\inc-ID:\study\Keil_v5\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="535" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\sys.o --omf_browse ..\..\output\sys.crf --depend ..\..\output\sys.d)
+I (..\..\Drivers\SYSTEM\inc\sys.h)(0x64C37890)
+I (..\..\Drivers\Libraries\stm32f1xx.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\stm32f103xe.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\core_cm3.h)(0x5FFEEE4A)
+I (D:\study\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\Drivers\Libraries\cmsis_version.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\cmsis_compiler.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\cmsis_armcc.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\system_stm32f1xx.h)(0x5FFEEE4A)
+F (..\..\Drivers\SYSTEM\src\delay.c)(0x64C92169)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers -I ..\..\Drivers\BSP -I ..\..\Drivers\BSP\inc -I ..\..\Drivers\Libraries -I ..\..\Drivers\SYSTEM -I ..\..\Drivers\SYSTEM\inc -I ..\..\User -I ..\..\User\inc-ID:\study\Keil_v5\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="535" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\delay.o --omf_browse ..\..\output\delay.crf --depend ..\..\output\delay.d)
+I (..\..\Drivers\SYSTEM\inc\delay.h)(0x64C378A2)
+I (..\..\Drivers\SYSTEM\inc\sys.h)(0x64C37890)
+I (..\..\Drivers\Libraries\stm32f1xx.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\stm32f103xe.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\core_cm3.h)(0x5FFEEE4A)
+I (D:\study\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\Drivers\Libraries\cmsis_version.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\cmsis_compiler.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\cmsis_armcc.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\system_stm32f1xx.h)(0x5FFEEE4A)
+F (..\..\Drivers\SYSTEM\src\usart.c)(0x64CB64FD)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers -I ..\..\Drivers\BSP -I ..\..\Drivers\BSP\inc -I ..\..\Drivers\Libraries -I ..\..\Drivers\SYSTEM -I ..\..\Drivers\SYSTEM\inc -I ..\..\User -I ..\..\User\inc-ID:\study\Keil_v5\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="535" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\usart.o --omf_browse ..\..\output\usart.crf --depend ..\..\output\usart.d)
+I (..\..\Drivers\SYSTEM\inc\usart.h)(0x64CB64FA)
+I (..\..\Drivers\SYSTEM\inc\sys.h)(0x64C37890)
+I (..\..\Drivers\Libraries\stm32f1xx.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\stm32f103xe.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\core_cm3.h)(0x5FFEEE4A)
+I (D:\study\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\Drivers\Libraries\cmsis_version.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\cmsis_compiler.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\cmsis_armcc.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\system_stm32f1xx.h)(0x5FFEEE4A)
+I (D:\study\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+F (..\..\Drivers\BSP\src\led.c)(0x64CB6504)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers -I ..\..\Drivers\BSP -I ..\..\Drivers\BSP\inc -I ..\..\Drivers\Libraries -I ..\..\Drivers\SYSTEM -I ..\..\Drivers\SYSTEM\inc -I ..\..\User -I ..\..\User\inc-ID:\study\Keil_v5\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="535" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\led.o --omf_browse ..\..\output\led.crf --depend ..\..\output\led.d)
+I (..\..\Drivers\BSP\inc\led.h)(0x64C723C4)
+I (..\..\Drivers\SYSTEM\inc\sys.h)(0x64C37890)
+I (..\..\Drivers\Libraries\stm32f1xx.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\stm32f103xe.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\core_cm3.h)(0x5FFEEE4A)
+I (D:\study\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\Drivers\Libraries\cmsis_version.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\cmsis_compiler.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\cmsis_armcc.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\system_stm32f1xx.h)(0x5FFEEE4A)
+F (..\..\Drivers\BSP\src\key.c)(0x64CB650F)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers -I ..\..\Drivers\BSP -I ..\..\Drivers\BSP\inc -I ..\..\Drivers\Libraries -I ..\..\Drivers\SYSTEM -I ..\..\Drivers\SYSTEM\inc -I ..\..\User -I ..\..\User\inc-ID:\study\Keil_v5\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="535" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\key.o --omf_browse ..\..\output\key.crf --depend ..\..\output\key.d)
+I (..\..\Drivers\BSP\inc\key.h)(0x64CB6519)
+I (..\..\Drivers\SYSTEM\inc\sys.h)(0x64C37890)
+I (..\..\Drivers\Libraries\stm32f1xx.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\stm32f103xe.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\core_cm3.h)(0x5FFEEE4A)
+I (D:\study\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\Drivers\Libraries\cmsis_version.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\cmsis_compiler.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\cmsis_armcc.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\system_stm32f1xx.h)(0x5FFEEE4A)
+I (..\..\Drivers\SYSTEM\inc\delay.h)(0x64C378A2)
+F (..\..\Drivers\BSP\src\exti.c)(0x64C28294)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers -I ..\..\Drivers\BSP -I ..\..\Drivers\BSP\inc -I ..\..\Drivers\Libraries -I ..\..\Drivers\SYSTEM -I ..\..\Drivers\SYSTEM\inc -I ..\..\User -I ..\..\User\inc-ID:\study\Keil_v5\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="535" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\exti.o --omf_browse ..\..\output\exti.crf --depend ..\..\output\exti.d)
+I (..\..\Drivers\BSP\inc\exti.h)(0x64C7BF01)
+I (..\..\Drivers\SYSTEM\inc\sys.h)(0x64C37890)
+I (..\..\Drivers\Libraries\stm32f1xx.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\stm32f103xe.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\core_cm3.h)(0x5FFEEE4A)
+I (D:\study\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\Drivers\Libraries\cmsis_version.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\cmsis_compiler.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\cmsis_armcc.h)(0x5FFEEE4A)
+I (..\..\Drivers\Libraries\system_stm32f1xx.h)(0x5FFEEE4A)

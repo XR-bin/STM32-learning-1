@@ -1,0 +1,11 @@
+..\..\output\wwdg.o: ..\..\Drivers\BSP\src\wwdg.c
+..\..\output\wwdg.o: ..\..\Drivers\BSP\inc\wwdg.h
+..\..\output\wwdg.o: ..\..\Drivers\SYSTEM\inc\sys.h
+..\..\output\wwdg.o: ..\..\Drivers\Libraries\stm32f1xx.h
+..\..\output\wwdg.o: ..\..\Drivers\Libraries\stm32f103xe.h
+..\..\output\wwdg.o: ..\..\Drivers\Libraries\core_cm3.h
+..\..\output\wwdg.o: D:\study\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\wwdg.o: ..\..\Drivers\Libraries\cmsis_version.h
+..\..\output\wwdg.o: ..\..\Drivers\Libraries\cmsis_compiler.h
+..\..\output\wwdg.o: ..\..\Drivers\Libraries\cmsis_armcc.h
+..\..\output\wwdg.o: ..\..\Drivers\Libraries\system_stm32f1xx.h

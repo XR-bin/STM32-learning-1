@@ -1,0 +1,66 @@
+Dependencies for Project 'STM32F407ZGT6', Target 'M4': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\..\Drivers\Libraries\arm\startup_stm32f407xx.s)(0x61CD7D2F)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -ID:\study\Keil_v5\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 535" --pd "STM32F407xx SETA 1"--list ..\..\output\startup_stm32f407xx.lst --xref -o ..\..\output\startup_stm32f407xx.o --depend ..\..\output\startup_stm32f407xx.d)
+F (..\..\User\main.c)(0x64CC7C29)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers -I ..\..\Drivers\BSP -I ..\..\Drivers\BSP\inc -I ..\..\Drivers\Libraries -I ..\..\Drivers\SYSTEM -I ..\..\Drivers\SYSTEM\inc -I ..\..\User -I ..\..\User\inc-ID:\study\Keil_v5\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -DSTM32F407xx -DSTM32F407xx-o ..\..\output\main.o --omf_browse ..\..\output\main.crf --depend ..\..\output\main.d)
+I (..\..\Drivers\SYSTEM\inc\sys.h)(0x64C91C96)
+I (..\..\Drivers\Libraries\stm32f4xx.h)(0x60266485)
+I (..\..\Drivers\Libraries\stm32f407xx.h)(0x60266485)
+I (..\..\Drivers\Libraries\core_cm4.h)(0x6026647F)
+I (D:\study\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\Drivers\Libraries\cmsis_version.h)(0x6026647F)
+I (..\..\Drivers\Libraries\cmsis_compiler.h)(0x6026647F)
+I (..\..\Drivers\Libraries\cmsis_armcc.h)(0x6026647F)
+I (..\..\Drivers\Libraries\mpu_armv7.h)(0x6026647F)
+I (..\..\Drivers\Libraries\system_stm32f4xx.h)(0x60266485)
+I (..\..\Drivers\SYSTEM\inc\delay.h)(0x64C92A85)
+I (..\..\Drivers\SYSTEM\inc\usart.h)(0x64CB9555)
+I (D:\study\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\..\Drivers\BSP\inc\adc.h)(0x64CC7BC2)
+F (..\..\Drivers\SYSTEM\src\sys.c)(0x64CB94BA)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers -I ..\..\Drivers\BSP -I ..\..\Drivers\BSP\inc -I ..\..\Drivers\Libraries -I ..\..\Drivers\SYSTEM -I ..\..\Drivers\SYSTEM\inc -I ..\..\User -I ..\..\User\inc-ID:\study\Keil_v5\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -DSTM32F407xx -DSTM32F407xx-o ..\..\output\sys.o --omf_browse ..\..\output\sys.crf --depend ..\..\output\sys.d)
+I (..\..\Drivers\SYSTEM\inc\sys.h)(0x64C91C96)
+I (..\..\Drivers\Libraries\stm32f4xx.h)(0x60266485)
+I (..\..\Drivers\Libraries\stm32f407xx.h)(0x60266485)
+I (..\..\Drivers\Libraries\core_cm4.h)(0x6026647F)
+I (D:\study\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\Drivers\Libraries\cmsis_version.h)(0x6026647F)
+I (..\..\Drivers\Libraries\cmsis_compiler.h)(0x6026647F)
+I (..\..\Drivers\Libraries\cmsis_armcc.h)(0x6026647F)
+I (..\..\Drivers\Libraries\mpu_armv7.h)(0x6026647F)
+I (..\..\Drivers\Libraries\system_stm32f4xx.h)(0x60266485)
+F (..\..\Drivers\SYSTEM\src\delay.c)(0x64CB94F8)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers -I ..\..\Drivers\BSP -I ..\..\Drivers\BSP\inc -I ..\..\Drivers\Libraries -I ..\..\Drivers\SYSTEM -I ..\..\Drivers\SYSTEM\inc -I ..\..\User -I ..\..\User\inc-ID:\study\Keil_v5\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -DSTM32F407xx -DSTM32F407xx-o ..\..\output\delay.o --omf_browse ..\..\output\delay.crf --depend ..\..\output\delay.d)
+I (..\..\Drivers\SYSTEM\inc\delay.h)(0x64C92A85)
+I (..\..\Drivers\SYSTEM\inc\sys.h)(0x64C91C96)
+I (..\..\Drivers\Libraries\stm32f4xx.h)(0x60266485)
+I (..\..\Drivers\Libraries\stm32f407xx.h)(0x60266485)
+I (..\..\Drivers\Libraries\core_cm4.h)(0x6026647F)
+I (D:\study\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\Drivers\Libraries\cmsis_version.h)(0x6026647F)
+I (..\..\Drivers\Libraries\cmsis_compiler.h)(0x6026647F)
+I (..\..\Drivers\Libraries\cmsis_armcc.h)(0x6026647F)
+I (..\..\Drivers\Libraries\mpu_armv7.h)(0x6026647F)
+I (..\..\Drivers\Libraries\system_stm32f4xx.h)(0x60266485)
+F (..\..\Drivers\SYSTEM\src\usart.c)(0x64CB9D3E)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers -I ..\..\Drivers\BSP -I ..\..\Drivers\BSP\inc -I ..\..\Drivers\Libraries -I ..\..\Drivers\SYSTEM -I ..\..\Drivers\SYSTEM\inc -I ..\..\User -I ..\..\User\inc-ID:\study\Keil_v5\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -DSTM32F407xx -DSTM32F407xx-o ..\..\output\usart.o --omf_browse ..\..\output\usart.crf --depend ..\..\output\usart.d)
+I (..\..\Drivers\SYSTEM\inc\usart.h)(0x64CB9555)
+I (..\..\Drivers\SYSTEM\inc\sys.h)(0x64C91C96)
+I (..\..\Drivers\Libraries\stm32f4xx.h)(0x60266485)
+I (..\..\Drivers\Libraries\stm32f407xx.h)(0x60266485)
+I (..\..\Drivers\Libraries\core_cm4.h)(0x6026647F)
+I (D:\study\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\Drivers\Libraries\cmsis_version.h)(0x6026647F)
+I (..\..\Drivers\Libraries\cmsis_compiler.h)(0x6026647F)
+I (..\..\Drivers\Libraries\cmsis_armcc.h)(0x6026647F)
+I (..\..\Drivers\Libraries\mpu_armv7.h)(0x6026647F)
+I (..\..\Drivers\Libraries\system_stm32f4xx.h)(0x60266485)
+I (D:\study\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+F (..\..\Drivers\BSP\src\adc.c)(0x64CC7BC2)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers -I ..\..\Drivers\BSP -I ..\..\Drivers\BSP\inc -I ..\..\Drivers\Libraries -I ..\..\Drivers\SYSTEM -I ..\..\Drivers\SYSTEM\inc -I ..\..\User -I ..\..\User\inc-ID:\study\Keil_v5\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -DSTM32F407xx -DSTM32F407xx-o ..\..\output\adc.o --omf_browse ..\..\output\adc.crf --depend ..\..\output\adc.d)
+I (..\..\Drivers\BSP\inc\adc.h)(0x64CC7BC2)
+I (..\..\Drivers\SYSTEM\inc\sys.h)(0x64C91C96)
+I (..\..\Drivers\Libraries\stm32f4xx.h)(0x60266485)
+I (..\..\Drivers\Libraries\stm32f407xx.h)(0x60266485)
+I (..\..\Drivers\Libraries\core_cm4.h)(0x6026647F)
+I (D:\study\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\Drivers\Libraries\cmsis_version.h)(0x6026647F)
+I (..\..\Drivers\Libraries\cmsis_compiler.h)(0x6026647F)
+I (..\..\Drivers\Libraries\cmsis_armcc.h)(0x6026647F)
+I (..\..\Drivers\Libraries\mpu_armv7.h)(0x6026647F)
+I (..\..\Drivers\Libraries\system_stm32f4xx.h)(0x60266485)

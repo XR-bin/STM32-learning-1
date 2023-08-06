@@ -1,0 +1,13 @@
+..\..\output\show.o: ..\..\Drivers\BSP\src\show.c
+..\..\output\show.o: ..\..\Drivers\BSP\inc\show.h
+..\..\output\show.o: ..\..\Drivers\SYSTEM\inc\sys.h
+..\..\output\show.o: ..\..\Drivers\Libraries\stm32f1xx.h
+..\..\output\show.o: ..\..\Drivers\Libraries\stm32f103xe.h
+..\..\output\show.o: ..\..\Drivers\Libraries\core_cm3.h
+..\..\output\show.o: D:\study\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\show.o: ..\..\Drivers\Libraries\cmsis_version.h
+..\..\output\show.o: ..\..\Drivers\Libraries\cmsis_compiler.h
+..\..\output\show.o: ..\..\Drivers\Libraries\cmsis_armcc.h
+..\..\output\show.o: ..\..\Drivers\Libraries\system_stm32f1xx.h
+..\..\output\show.o: ..\..\Drivers\BSP\inc\w25q128.h
+..\..\output\show.o: ..\..\Drivers\BSP\inc\lcd.h

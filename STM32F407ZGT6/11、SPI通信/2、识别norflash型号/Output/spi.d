@@ -1,0 +1,12 @@
+..\..\output\spi.o: ..\..\Drivers\BSP\src\spi.c
+..\..\output\spi.o: ..\..\Drivers\BSP\inc\spi.h
+..\..\output\spi.o: ..\..\Drivers\SYSTEM\inc\sys.h
+..\..\output\spi.o: ..\..\Drivers\Libraries\stm32f4xx.h
+..\..\output\spi.o: ..\..\Drivers\Libraries\stm32f407xx.h
+..\..\output\spi.o: ..\..\Drivers\Libraries\core_cm4.h
+..\..\output\spi.o: D:\study\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\spi.o: ..\..\Drivers\Libraries\cmsis_version.h
+..\..\output\spi.o: ..\..\Drivers\Libraries\cmsis_compiler.h
+..\..\output\spi.o: ..\..\Drivers\Libraries\cmsis_armcc.h
+..\..\output\spi.o: ..\..\Drivers\Libraries\mpu_armv7.h
+..\..\output\spi.o: ..\..\Drivers\Libraries\system_stm32f4xx.h

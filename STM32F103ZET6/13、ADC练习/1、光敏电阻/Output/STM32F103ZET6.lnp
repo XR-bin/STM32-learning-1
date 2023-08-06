@@ -1,0 +1,11 @@
+--cpu Cortex-M3
+"..\..\output\startup_stm32f103xe.o"
+"..\..\output\main.o"
+"..\..\output\sys.o"
+"..\..\output\delay.o"
+"..\..\output\usart.o"
+"..\..\output\adc.o"
+--strict --scatter "..\..\Output\STM32F103ZET6.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "..\..\Output\STM32F103ZET6.map" -o ..\..\Output\STM32F103ZET6.axf

@@ -1,0 +1,12 @@
+..\..\output\a.o: ..\..\Drivers\BSP\src\a.c
+..\..\output\a.o: ..\..\Drivers\BSP\inc\lcd.h
+..\..\output\a.o: ..\..\Drivers\SYSTEM\inc\sys.h
+..\..\output\a.o: ..\..\Drivers\Libraries\stm32f1xx.h
+..\..\output\a.o: ..\..\Drivers\Libraries\stm32f103xe.h
+..\..\output\a.o: ..\..\Drivers\Libraries\core_cm3.h
+..\..\output\a.o: D:\study\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\a.o: ..\..\Drivers\Libraries\cmsis_version.h
+..\..\output\a.o: ..\..\Drivers\Libraries\cmsis_compiler.h
+..\..\output\a.o: ..\..\Drivers\Libraries\cmsis_armcc.h
+..\..\output\a.o: ..\..\Drivers\Libraries\system_stm32f1xx.h
+..\..\output\a.o: ..\..\Drivers\SYSTEM\inc\delay.h

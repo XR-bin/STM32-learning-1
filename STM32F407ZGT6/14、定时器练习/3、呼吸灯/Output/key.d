@@ -1,0 +1,13 @@
+..\..\output\key.o: ..\..\Drivers\BSP\src\key.c
+..\..\output\key.o: ..\..\Drivers\BSP\inc\key.h
+..\..\output\key.o: ..\..\Drivers\SYSTEM\inc\sys.h
+..\..\output\key.o: ..\..\Drivers\Libraries\stm32f4xx.h
+..\..\output\key.o: ..\..\Drivers\Libraries\stm32f407xx.h
+..\..\output\key.o: ..\..\Drivers\Libraries\core_cm4.h
+..\..\output\key.o: D:\study\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\key.o: ..\..\Drivers\Libraries\cmsis_version.h
+..\..\output\key.o: ..\..\Drivers\Libraries\cmsis_compiler.h
+..\..\output\key.o: ..\..\Drivers\Libraries\cmsis_armcc.h
+..\..\output\key.o: ..\..\Drivers\Libraries\mpu_armv7.h
+..\..\output\key.o: ..\..\Drivers\Libraries\system_stm32f4xx.h
+..\..\output\key.o: ..\..\Drivers\SYSTEM\inc\delay.h

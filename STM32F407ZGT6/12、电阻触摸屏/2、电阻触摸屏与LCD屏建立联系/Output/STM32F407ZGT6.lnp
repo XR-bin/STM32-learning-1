@@ -1,0 +1,13 @@
+--cpu=Cortex-M4.fp.sp
+"..\..\output\startup_stm32f407xx.o"
+"..\..\output\main.o"
+"..\..\output\sys.o"
+"..\..\output\delay.o"
+"..\..\output\usart.o"
+"..\..\output\lcd.o"
+"..\..\output\fsmc.o"
+"..\..\output\touch.o"
+--strict --scatter "..\..\Output\STM32F407ZGT6.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "..\..\Output\STM32F407ZGT6.map" -o ..\..\Output\STM32F407ZGT6.axf

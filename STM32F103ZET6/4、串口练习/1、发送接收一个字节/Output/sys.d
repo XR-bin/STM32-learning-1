@@ -1,0 +1,10 @@
+..\..\output\sys.o: ..\..\Drivers\SYSTEM\src\sys.c
+..\..\output\sys.o: ..\..\Drivers\SYSTEM\inc\sys.h
+..\..\output\sys.o: ..\..\Drivers\Libraries\stm32f1xx.h
+..\..\output\sys.o: ..\..\Drivers\Libraries\stm32f103xe.h
+..\..\output\sys.o: ..\..\Drivers\Libraries\core_cm3.h
+..\..\output\sys.o: D:\study\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\sys.o: ..\..\Drivers\Libraries\cmsis_version.h
+..\..\output\sys.o: ..\..\Drivers\Libraries\cmsis_compiler.h
+..\..\output\sys.o: ..\..\Drivers\Libraries\cmsis_armcc.h
+..\..\output\sys.o: ..\..\Drivers\Libraries\system_stm32f1xx.h

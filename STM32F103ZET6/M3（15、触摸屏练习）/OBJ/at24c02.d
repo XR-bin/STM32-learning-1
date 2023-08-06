@@ -1,9 +1,0 @@
-..\obj\at24c02.o: ..\HARDWARE\src\at24c02.c
-..\obj\at24c02.o: ..\SYSTEM\sys\sys.h
-..\obj\at24c02.o: ..\SYSTEM\sys\stm32f10x.h
-..\obj\at24c02.o: ..\SYSTEM\sys\core_cm3.h
-..\obj\at24c02.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-..\obj\at24c02.o: ..\SYSTEM\sys\system_stm32f10x.h
-..\obj\at24c02.o: ..\HARDWARE\inc\iic.h
-..\obj\at24c02.o: ..\SYSTEM\delay\delay.h
-..\obj\at24c02.o: ..\HARDWARE\inc\at24c02.h

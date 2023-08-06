@@ -1,0 +1,13 @@
+..\..\output\touch.o: ..\..\Drivers\BSP\src\touch.c
+..\..\output\touch.o: ..\..\Drivers\BSP\inc\touch.h
+..\..\output\touch.o: ..\..\Drivers\SYSTEM\inc\sys.h
+..\..\output\touch.o: ..\..\Drivers\Libraries\stm32f4xx.h
+..\..\output\touch.o: ..\..\Drivers\Libraries\stm32f407xx.h
+..\..\output\touch.o: ..\..\Drivers\Libraries\core_cm4.h
+..\..\output\touch.o: D:\study\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\touch.o: ..\..\Drivers\Libraries\cmsis_version.h
+..\..\output\touch.o: ..\..\Drivers\Libraries\cmsis_compiler.h
+..\..\output\touch.o: ..\..\Drivers\Libraries\cmsis_armcc.h
+..\..\output\touch.o: ..\..\Drivers\Libraries\mpu_armv7.h
+..\..\output\touch.o: ..\..\Drivers\Libraries\system_stm32f4xx.h
+..\..\output\touch.o: ..\..\Drivers\SYSTEM\inc\delay.h

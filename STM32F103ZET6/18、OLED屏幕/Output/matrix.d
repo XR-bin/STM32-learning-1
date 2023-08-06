@@ -1,0 +1,10 @@
+..\..\output\matrix.o: ..\..\Drivers\BSP\src\matrix.c
+..\..\output\matrix.o: ..\..\Drivers\SYSTEM\inc\sys.h
+..\..\output\matrix.o: ..\..\Drivers\Libraries\stm32f1xx.h
+..\..\output\matrix.o: ..\..\Drivers\Libraries\stm32f103xe.h
+..\..\output\matrix.o: ..\..\Drivers\Libraries\core_cm3.h
+..\..\output\matrix.o: D:\study\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\matrix.o: ..\..\Drivers\Libraries\cmsis_version.h
+..\..\output\matrix.o: ..\..\Drivers\Libraries\cmsis_compiler.h
+..\..\output\matrix.o: ..\..\Drivers\Libraries\cmsis_armcc.h
+..\..\output\matrix.o: ..\..\Drivers\Libraries\system_stm32f1xx.h

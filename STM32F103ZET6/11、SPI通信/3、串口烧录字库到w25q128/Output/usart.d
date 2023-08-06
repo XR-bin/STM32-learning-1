@@ -1,0 +1,14 @@
+..\..\output\usart.o: ..\..\Drivers\SYSTEM\src\usart.c
+..\..\output\usart.o: ..\..\Drivers\SYSTEM\inc\usart.h
+..\..\output\usart.o: ..\..\Drivers\SYSTEM\inc\sys.h
+..\..\output\usart.o: ..\..\Drivers\Libraries\stm32f1xx.h
+..\..\output\usart.o: ..\..\Drivers\Libraries\stm32f103xe.h
+..\..\output\usart.o: ..\..\Drivers\Libraries\core_cm3.h
+..\..\output\usart.o: D:\study\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\usart.o: ..\..\Drivers\Libraries\cmsis_version.h
+..\..\output\usart.o: ..\..\Drivers\Libraries\cmsis_compiler.h
+..\..\output\usart.o: ..\..\Drivers\Libraries\cmsis_armcc.h
+..\..\output\usart.o: ..\..\Drivers\Libraries\system_stm32f1xx.h
+..\..\output\usart.o: D:\study\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\usart.o: ..\..\Drivers\BSP\inc\led.h
+..\..\output\usart.o: ..\..\Drivers\BSP\inc\w25q128.h

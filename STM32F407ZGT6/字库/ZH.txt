@@ -1,8 +1,0 @@
-目标文件:C:\Users\Administrator\Desktop\ZH.bin   大小:0x00141F58
-各部分大小如下:
-
-索引                        文件名                                            大小              偏移量            强制插入
- 1      C:\Users\Administrator\Desktop\ASC16.bin                            0x00000806        0x00000000             否
- 2      C:\Users\Administrator\Desktop\ASC32.bin                            0x00002006        0x00000806             否
- 3      C:\Users\Administrator\Desktop\HZK16.bin                            0x0003FE46        0x0000280C             否
- 4      C:\Users\Administrator\Desktop\HZK32.bin                            0x000FF906        0x00042652             否

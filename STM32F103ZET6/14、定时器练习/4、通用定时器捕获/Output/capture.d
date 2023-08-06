@@ -1,0 +1,13 @@
+..\..\output\capture.o: ..\..\Drivers\BSP\src\capture.c
+..\..\output\capture.o: ..\..\Drivers\BSP\inc\capture.h
+..\..\output\capture.o: ..\..\Drivers\SYSTEM\inc\sys.h
+..\..\output\capture.o: ..\..\Drivers\Libraries\stm32f1xx.h
+..\..\output\capture.o: ..\..\Drivers\Libraries\stm32f103xe.h
+..\..\output\capture.o: ..\..\Drivers\Libraries\core_cm3.h
+..\..\output\capture.o: D:\study\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\capture.o: ..\..\Drivers\Libraries\cmsis_version.h
+..\..\output\capture.o: ..\..\Drivers\Libraries\cmsis_compiler.h
+..\..\output\capture.o: ..\..\Drivers\Libraries\cmsis_armcc.h
+..\..\output\capture.o: ..\..\Drivers\Libraries\system_stm32f1xx.h
+..\..\output\capture.o: ..\..\Drivers\SYSTEM\inc\usart.h
+..\..\output\capture.o: D:\study\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

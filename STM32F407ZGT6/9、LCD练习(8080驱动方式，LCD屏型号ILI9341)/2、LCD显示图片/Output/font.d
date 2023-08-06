@@ -1,0 +1,11 @@
+..\..\output\font.o: ..\..\Drivers\BSP\src\font.c
+..\..\output\font.o: ..\..\Drivers\SYSTEM\inc\sys.h
+..\..\output\font.o: ..\..\Drivers\Libraries\stm32f4xx.h
+..\..\output\font.o: ..\..\Drivers\Libraries\stm32f407xx.h
+..\..\output\font.o: ..\..\Drivers\Libraries\core_cm4.h
+..\..\output\font.o: D:\study\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\font.o: ..\..\Drivers\Libraries\cmsis_version.h
+..\..\output\font.o: ..\..\Drivers\Libraries\cmsis_compiler.h
+..\..\output\font.o: ..\..\Drivers\Libraries\cmsis_armcc.h
+..\..\output\font.o: ..\..\Drivers\Libraries\mpu_armv7.h
+..\..\output\font.o: ..\..\Drivers\Libraries\system_stm32f4xx.h

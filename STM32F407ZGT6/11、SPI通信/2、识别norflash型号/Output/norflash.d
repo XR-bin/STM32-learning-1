@@ -1,0 +1,15 @@
+..\..\output\norflash.o: ..\..\Drivers\BSP\src\norflash.c
+..\..\output\norflash.o: ..\..\Drivers\BSP\inc\norflash.h
+..\..\output\norflash.o: ..\..\Drivers\SYSTEM\inc\sys.h
+..\..\output\norflash.o: ..\..\Drivers\Libraries\stm32f4xx.h
+..\..\output\norflash.o: ..\..\Drivers\Libraries\stm32f407xx.h
+..\..\output\norflash.o: ..\..\Drivers\Libraries\core_cm4.h
+..\..\output\norflash.o: D:\study\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\norflash.o: ..\..\Drivers\Libraries\cmsis_version.h
+..\..\output\norflash.o: ..\..\Drivers\Libraries\cmsis_compiler.h
+..\..\output\norflash.o: ..\..\Drivers\Libraries\cmsis_armcc.h
+..\..\output\norflash.o: ..\..\Drivers\Libraries\mpu_armv7.h
+..\..\output\norflash.o: ..\..\Drivers\Libraries\system_stm32f4xx.h
+..\..\output\norflash.o: ..\..\Drivers\SYSTEM\inc\usart.h
+..\..\output\norflash.o: D:\study\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\norflash.o: ..\..\Drivers\BSP\inc\spi.h

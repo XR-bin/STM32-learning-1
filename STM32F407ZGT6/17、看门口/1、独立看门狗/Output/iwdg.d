@@ -1,0 +1,12 @@
+..\..\output\iwdg.o: ..\..\Drivers\BSP\src\iwdg.c
+..\..\output\iwdg.o: ..\..\Drivers\BSP\inc\iwdg.h
+..\..\output\iwdg.o: ..\..\Drivers\SYSTEM\inc\sys.h
+..\..\output\iwdg.o: ..\..\Drivers\Libraries\stm32f4xx.h
+..\..\output\iwdg.o: ..\..\Drivers\Libraries\stm32f407xx.h
+..\..\output\iwdg.o: ..\..\Drivers\Libraries\core_cm4.h
+..\..\output\iwdg.o: D:\study\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\iwdg.o: ..\..\Drivers\Libraries\cmsis_version.h
+..\..\output\iwdg.o: ..\..\Drivers\Libraries\cmsis_compiler.h
+..\..\output\iwdg.o: ..\..\Drivers\Libraries\cmsis_armcc.h
+..\..\output\iwdg.o: ..\..\Drivers\Libraries\mpu_armv7.h
+..\..\output\iwdg.o: ..\..\Drivers\Libraries\system_stm32f4xx.h

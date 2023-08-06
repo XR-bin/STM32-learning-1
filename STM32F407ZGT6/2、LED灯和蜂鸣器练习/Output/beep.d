@@ -1,0 +1,12 @@
+..\..\output\beep.o: ..\..\Drivers\BSP\src\beep.c
+..\..\output\beep.o: ..\..\Drivers\BSP\inc\beep.h
+..\..\output\beep.o: ..\..\Drivers\SYSTEM\inc\sys.h
+..\..\output\beep.o: ..\..\Drivers\Libraries\stm32f4xx.h
+..\..\output\beep.o: ..\..\Drivers\Libraries\stm32f407xx.h
+..\..\output\beep.o: ..\..\Drivers\Libraries\core_cm4.h
+..\..\output\beep.o: D:\study\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\beep.o: ..\..\Drivers\Libraries\cmsis_version.h
+..\..\output\beep.o: ..\..\Drivers\Libraries\cmsis_compiler.h
+..\..\output\beep.o: ..\..\Drivers\Libraries\cmsis_armcc.h
+..\..\output\beep.o: ..\..\Drivers\Libraries\mpu_armv7.h
+..\..\output\beep.o: ..\..\Drivers\Libraries\system_stm32f4xx.h
