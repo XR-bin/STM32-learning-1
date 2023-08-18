@@ -10,5 +10,5 @@
 ..\..\output\usart.o: ..\..\Drivers\Libraries\cmsis_armcc.h
 ..\..\output\usart.o: ..\..\Drivers\Libraries\system_stm32f1xx.h
 ..\..\output\usart.o: D:\study\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-..\..\output\usart.o: ..\..\Drivers\BSP\inc\led.h
 ..\..\output\usart.o: ..\..\Drivers\BSP\inc\w25q128.h
+..\..\output\usart.o: ..\..\Drivers\BSP\inc\led.h

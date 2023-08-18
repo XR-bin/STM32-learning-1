@@ -19,11 +19,12 @@
 
 int main(void)
 {
-    sys_stm32_clock_init(9);  /* 系统时钟初始化*/
-    SysTick_Init();           /* 延时初始化 */
-    USART1_Init(115200);      /* 串口初始化  115200  使用中断*/
-    LED_Init();               /* LED初始化 */
-    W25Q128_Init();           /* W25Q128初始化 */
+    sys_stm32_clock_init(9);      /* 系统时钟初始化*/
+    NVIC_SetPriorityGrouping(5);  /* 5--101  2号分组方案 2 位抢占优先级， 2 位响应优先级 */
+    SysTick_Init();               /* 延时初始化 */
+    USART1_Init(115200);          /* 串口初始化  115200  使用中断*/
+    LED_Init();                   /* LED初始化 */
+    W25Q128_Init();               /* W25Q128初始化 */
 
     /* 擦除 */
     printf("开始擦除\r\n");

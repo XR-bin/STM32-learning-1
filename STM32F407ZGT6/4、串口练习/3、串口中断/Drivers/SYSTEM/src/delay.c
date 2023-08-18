@@ -1,4 +1,6 @@
-#include "stm32f4xx.h"           
+#include "delay.h"
+
+
 
 /**********************************************************
 * @funcName ：SysTick_Init
@@ -46,7 +48,7 @@ void delay_us(uint32_t us)
 void delay1_ms(uint16_t ms)
 {
     SysTick->VAL = 0xff;                 /* 将当前值寄存器清零   随便写一个数据进入 */
-    SysTick->LOAD = 21*1000*ms;           /* 将要计时的数据写入到重装载值寄存器 */ 
+    SysTick->LOAD = 21*1000*ms;          /* 将要计时的数据写入到重装载值寄存器 */ 
     SysTick->CTRL |= (1<<0);             /* 开始计数   开计数器使能 */
     while(!(SysTick->CTRL & (1<<16)));   /* 等待计数完成    while(16位为0) */
     SysTick->CTRL &= ~(1<<0);            /* 关闭计数器 */

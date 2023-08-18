@@ -39,6 +39,7 @@
 * @param    ：void
 * @retval   ：void
 * @details  ：
+*             SPI_CS     PB12
 * @fn       ：
 ************************************************************/
 void W25Q128_Init(void)
@@ -322,7 +323,7 @@ void W25Q128_Write(uint32_t address, uint16_t datalen, uint8_t *arr)
     secoff = address % 4096;       /* 在扇区内的偏移 */
     secremain = 4096 - secoff;     /* 扇区剩余空间大小 */
 
-    //printf("ad:%X,nb:%X\r\n", address, datalen); /* 测试用 */
+//    printf("ad:%X,nb:%X\r\n", address, datalen); /* 测试用 */
 
     if (datalen <= secremain)
     {

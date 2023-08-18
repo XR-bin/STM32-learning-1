@@ -57,7 +57,7 @@ void USART1_Init(uint32_t baud)
     /* 将编码值写入具体中断源 */
 //    NVIC_SetPriority(USART1_IRQn,pri);
     /* 使能NVIC响应通道 */
-//    NVIC_EnableIRQ(USART1_IRQn); 
+//    NVIC_EnableIRQ(USART1_IRQn);
 
     /* 串口使能 */
     USART1->CR1 |= (1<<13);
@@ -180,7 +180,7 @@ void USART2_Init(uint32_t baud)
     /* 串口寄存器初始化设置 */
     /* 串口时钟使能 */
     RCC->APB1ENR |= (1<<17);
-  
+
     /* 控制寄存器CR1 */
     USART2->CR1 &= ~(1<<12);
     USART2->CR1 |= ((1<<2)|(1<<3));

@@ -1,5 +1,5 @@
-#ifndef _DELAY_H
-#define _DELAY_H
+#ifndef __DELAY_H
+#define __DELAY_H
 
     /****************   外部头文件声明   ****************/
     #include "sys.h"

@@ -1,5 +1,5 @@
-#ifndef _EXTI_H
-#define _EXTI_H
+#ifndef __EXTI_H
+#define __EXTI_H
 
     /****************   外部头文件声明   ****************/
     #include "sys.h"

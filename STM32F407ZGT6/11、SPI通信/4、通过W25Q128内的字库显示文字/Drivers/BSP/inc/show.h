@@ -1,5 +1,5 @@
-#ifndef _SHOW_H
-#define _SHOW_H
+#ifndef __SHOW_H
+#define __SHOW_H
 
     /****************   外部头文件声明   ****************/
     #include "sys.h"

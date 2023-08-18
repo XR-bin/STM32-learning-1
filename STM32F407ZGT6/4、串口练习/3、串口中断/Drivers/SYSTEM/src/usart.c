@@ -1,5 +1,7 @@
 #include "usart.h"
 
+
+
 /**********************************************************
 * @funcName ：USART1_Init
 * @brief    ：对USART1对应的GPIO口进行初始化设置
@@ -171,7 +173,7 @@ void USART1_IRQHandler(void)
     {
         /* 中断要执行的任务 */
         str[strSize++] = USART1->DR;
-        
+
         /* 先读USART1->SR，再改USART1->DR，可以清除中断标志 */
         /* 或者直接修改USART1->SR，从而清除中断标志 */
         /* 我这里两种方式都用 */
@@ -181,7 +183,7 @@ void USART1_IRQHandler(void)
     {
         printf("%s", str);
         strSize=0;
-        
+
         /* 先读USART1->SR，再改USART1->DR，可以清除中断标志 */
         /* 或者直接修改USART1->SR，从而清除中断标志 */
         /* 我这里两种方式都用 */

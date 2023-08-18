@@ -1,5 +1,5 @@
-#ifndef _BEEP_H
-#define _BEEP_H
+#ifndef __BEEP_H
+#define __BEEP_H
 
     /****************   外部头文件声明   ****************/
     #include "sys.h"
@@ -7,8 +7,8 @@
 
 
     /********************   宏定义   ********************/
-    #define BEEP_ON  GPIOF->ODR |= (1<<8)
-    #define BEEP_OFF GPIOF->ODR &= ~(1<<8)
+    #define BEEP_ON  GPIOF->ODR |= (1<<8)      /* 开蜂鸣器 */
+    #define BEEP_OFF GPIOF->ODR &= ~(1<<8)     /* 关蜂鸣器 */
 
 
 

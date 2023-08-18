@@ -106,6 +106,9 @@ void ADC3_IRQHandler(void)
         data = ADC3->DR;
         printf("data:%d\r\n",data);
     }
+
+    /* Çå³ý±êÖ¾ */
+    ADC3->SR &= ~(1<<1);
 }
 
 

@@ -1,5 +1,5 @@
-#ifndef _TOUCH_H
-#define _TOUCH_H
+#ifndef __TOUCH_H
+#define __TOUCH_H
 
     /****************   外部头文件声明   ****************/
     #include "sys.h"
@@ -39,7 +39,7 @@
          *    1, 电容屏
          */
         uint8_t touchtype;
-    } _m_tp_dev;
+    }_m_tp_dev;
 
 
 
@@ -61,11 +61,11 @@
     /* 指令(竖屏情况下) */
     #define TOUCH_X   0xD0    //获取x坐标数据
     #define TOUCH_Y   0x90    //获取y坐标数据
-    
+
     /* 电阻触摸驱动芯片 数据采集 滤波用参数 */
     #define TP_READ_TIMES   5       /* 读取次数 */
     #define TP_LOST_VAL     1       /* 丢弃值(要丢弃的最大最小值个数) */
-    
+
     /* 连续两次读取X,Y坐标的数据误差最大允许值 */
     #define TP_ERR_RANGE    50         /* 误差范围 */
 

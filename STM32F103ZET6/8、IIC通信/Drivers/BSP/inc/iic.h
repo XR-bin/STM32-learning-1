@@ -1,5 +1,5 @@
-#ifndef _IIC_H
-#define _IIC_H
+#ifndef __IIC_H
+#define __IIC_H
 
     /****************   外部头文件声明   ****************/
     #include "sys.h"

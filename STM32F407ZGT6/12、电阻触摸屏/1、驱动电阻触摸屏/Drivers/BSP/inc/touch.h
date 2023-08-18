@@ -1,5 +1,5 @@
-#ifndef _TOUCH_H
-#define _TOUCH_H
+#ifndef __TOUCH_H
+#define __TOUCH_H
 
     /****************   外部头文件声明   ****************/
     #include "sys.h"

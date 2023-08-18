@@ -1,5 +1,5 @@
-#ifndef _NORFLASH_H
-#define _NORFLASH_H
+#ifndef __NORFLASH_H
+#define __NORFLASH_H
 
     /****************   外部头文件声明   ****************/
     #include "sys.h"

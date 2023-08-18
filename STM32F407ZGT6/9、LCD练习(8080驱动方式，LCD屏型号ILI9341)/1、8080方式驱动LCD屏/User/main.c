@@ -6,7 +6,7 @@ int main(void)
 {
     sys_stm32_clock_init(336, 8, 2, 7);     /* 设置时钟,168Mhz */
     SysTick_Init();                         /* 延时初始化 */
-    LCD_ILI9341_Init();       /* ILI9341的LCD屏初始化 */
+    LCD_ILI9341_Init();                     /* ILI9341的LCD屏初始化 */
 
 //    LCD_Draw_Circle(100, 100, 50, RED);           /* 空心圆 */
 //    LCD_Fill_Circle(100, 100, 50, BLUE);          /* 实心圆 */

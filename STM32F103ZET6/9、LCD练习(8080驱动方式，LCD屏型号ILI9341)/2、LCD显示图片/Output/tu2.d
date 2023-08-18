@@ -1,1 +1,11 @@
 ..\..\output\tu2.o: ..\..\Drivers\BSP\src\tu2.c
+..\..\output\tu2.o: ..\..\Drivers\BSP\inc\tu2.h
+..\..\output\tu2.o: ..\..\Drivers\SYSTEM\inc\sys.h
+..\..\output\tu2.o: ..\..\Drivers\Libraries\stm32f1xx.h
+..\..\output\tu2.o: ..\..\Drivers\Libraries\stm32f103xe.h
+..\..\output\tu2.o: ..\..\Drivers\Libraries\core_cm3.h
+..\..\output\tu2.o: D:\study\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\tu2.o: ..\..\Drivers\Libraries\cmsis_version.h
+..\..\output\tu2.o: ..\..\Drivers\Libraries\cmsis_compiler.h
+..\..\output\tu2.o: ..\..\Drivers\Libraries\cmsis_armcc.h
+..\..\output\tu2.o: ..\..\Drivers\Libraries\system_stm32f1xx.h

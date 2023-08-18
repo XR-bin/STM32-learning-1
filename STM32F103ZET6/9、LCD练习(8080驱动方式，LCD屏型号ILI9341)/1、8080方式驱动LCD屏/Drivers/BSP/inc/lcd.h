@@ -1,5 +1,5 @@
-#ifndef _LCD_H
-#define _LCD_H
+#ifndef __LCD_H
+#define __LCD_H
 
     /****************   外部头文件声明   ****************/
     #include "sys.h"
@@ -28,10 +28,10 @@
     #define LCD_CS_H    GPIOG->ODR |= (1<<12)      /* 片选失能 */
     #define LCD_CS_L    GPIOG->ODR &= ~(1<<12)     /* 片选使能 */
     /* 写使能 */
-    #define LCD_WR_H    GPIOD->ODR |= (1<<5) 
+    #define LCD_WR_H    GPIOD->ODR |= (1<<5)       /* 写失能 */
     #define LCD_WR_L    GPIOD->ODR &= ~(1<<5)      /* 写使能 */
     /* 读使能 */
-    #define LCD_RD_H    GPIOD->ODR |= (1<<4) 
+    #define LCD_RD_H    GPIOD->ODR |= (1<<4)       /* 读失能 */
     #define LCD_RD_L    GPIOD->ODR &= ~(1<<4)      /* 读使能 */
     /* 数据命令选择线 */
     #define LCD_DC_H    GPIOG->ODR |= (1<<0)       /* 收发数据 */
@@ -69,7 +69,7 @@
     /* 显示方向 */
     #define LCD_Crosswise  0xA8  /* 横向 */
     #define LCD_Lengthways 0x08  /* 纵向 */
-  
+
     /* 扫描方向定义 */
     #define L2R_U2D  0 /* 从左到右,从上到下 */
     #define L2R_D2U  1 /* 从左到右,从下到上 */
@@ -80,7 +80,7 @@
     #define U2D_R2L  5 /* 从上到下,从右到左 */
     #define D2U_L2R  6 /* 从下到上,从左到右 */
     #define D2U_R2L  7 /* 从下到上,从右到左 */
-    
+
     #define DFT_SCAN_DIR  L2R_U2D  /* 默认的扫描方向 */
 
     /*** 颜色 ***/

@@ -55,7 +55,7 @@ uint8_t RTC_Init(void)
 
     bkpflag = RTC_Read_Bkr(0);      /* 读取备份寄存器值 */
 
-    if (bkpflag != 0X5050)          /* 之前使用的不是LSE */
+    if(bkpflag != 0X5050)           /* 之前使用的不是LSE */
     {
         RCC->BDCR |= 1 << 0;        /* 开启外部低速振荡器 */
 
@@ -143,7 +143,8 @@ uint8_t RTC_Init(void)
         }
         else
         {
-            RTC->CRH |= 0X01;           /* 允许秒中断 */
+            RTC->CRH |= 1 << 0;             /* SECF = 1, 允许秒中断 */
+            RTC->CRH |= 1 << 1;             /* ALRF = 1, 允许闹钟中断 */
             while (!(RTC->CRL & (1 << 5))); /* 等待RTC寄存器操作完成 */
         }
     }

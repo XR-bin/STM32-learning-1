@@ -1,5 +1,4 @@
 #include "iic.h"
-#include "delay.h"
 
 
 
@@ -126,7 +125,7 @@ void IIC_Send_Ack(uint8_t ack)
         delay_us(1);      /* 延时1us */
         SCL_H;            /* 时钟线拉高 */
     }
-    
+
     delay_us(5);          /* 延时5us */
     SCL_L;                /* 时钟线拉低 */
 }
@@ -153,7 +152,7 @@ uint8_t IIC_Receive_Ack(void)
     SDA_IN;        /* 进入输入模式 */
     delay_us(5);   /* 延时5us */
     SCL_H;         /* 时钟线拉高 */
-    
+
     /* 判断从机发送的应答信号 */
     /* 从机不应答 */
     if(SDA_INT)
@@ -189,7 +188,7 @@ void IIC_Send_Byte(uint8_t data)
     {
         SCL_L;             /* 时钟线拉低 */
         delay_us(5);       /* 延时5us */
-        
+
         /*判断发送是0还是1*/
         if(data & 0x80)    /* 发送1 */
         {
@@ -203,7 +202,7 @@ void IIC_Send_Byte(uint8_t data)
         delay_us(1);       /* 延时1us */
         SCL_H;             /* 时钟线拉高 */
         delay_us(5);       /* 延时5us */
-        
+
         data <<= 1;        /* data左移一位 */
     }
 

@@ -1,5 +1,5 @@
-#ifndef _SPI_H
-#define _SPI_H
+#ifndef __SPI_H
+#define __SPI_H
 
     /****************   外部头文件声明   ****************/
     #include "sys.h"

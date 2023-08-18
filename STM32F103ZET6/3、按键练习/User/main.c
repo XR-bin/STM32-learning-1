@@ -18,6 +18,7 @@ int main(void)
     while(1)
     {
         key = KEY_Scan();
+
         switch(key)
         {
             case 1:LED0_ON;LED1_OFF;flay = 0;break;
@@ -36,7 +37,9 @@ int main(void)
                 LED0_OFF;
                 LED1_ON;
             }
+
             cont++;
+
             if(cont ==60000)
             {
                 i=!i;

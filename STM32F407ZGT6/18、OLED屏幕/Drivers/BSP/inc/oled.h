@@ -1,5 +1,5 @@
-#ifndef _OLED_H
-#define _OLED_H
+#ifndef __OLED_H
+#define __OLED_H
 
     /****************   外部头文件声明   ****************/
     #include "sys.h"

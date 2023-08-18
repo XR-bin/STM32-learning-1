@@ -45,7 +45,7 @@ void EXTI5_Swier_Init(void)
     /* 将编码值写入具体中断源 */
     NVIC_SetPriority(EXTI9_5_IRQn, pri);
     /* 使能NVIC响应通道 */
-    NVIC_EnableIRQ(EXTI9_5_IRQn); 
+    NVIC_EnableIRQ(EXTI9_5_IRQn);
 
     /* 中断屏蔽寄存器 */
     EXTI->IMR |= (1<<5);

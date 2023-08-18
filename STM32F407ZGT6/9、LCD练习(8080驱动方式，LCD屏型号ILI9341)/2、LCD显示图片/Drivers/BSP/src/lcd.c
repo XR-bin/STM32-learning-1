@@ -68,36 +68,36 @@ void LCD_IO_Init(void)
     GPIOD->MODER &= ~(0xf03f0f0f);
     GPIOD->MODER |= (0x50150505);      /* 输出 */
     /* 端口输出类型寄存器 */
-    GPIOD->OTYPER &= ~(0xc733);
+    GPIOD->OTYPER &= ~(0xc733);        /* 推挽 */
     /* 端口输出速度寄存器 */
-    GPIOD->OSPEEDR |= (0xf03f0f0f);    /* 推挽 */
+    GPIOD->OSPEEDR |= (0xf03f0f0f);
 
     /* PE口   PE：7-15 */
     /* 端口模式寄存器 */
     GPIOE->MODER &= ~(0xffffc000);
     GPIOE->MODER |= (0x55554000);      /* 输出 */
     //端口输出类型寄存器
-    GPIOE->OTYPER &= ~(0xff80);
+    GPIOE->OTYPER &= ~(0xff80);        /* 推挽 */
     //端口输出速度寄存器
-    GPIOE->OSPEEDR |= (0xffffc000);    /* 推挽 */
+    GPIOE->OSPEEDR |= (0xffffc000);
 
     /* PF口   PF：12 */
     /* 端口模式寄存器 */
     GPIOF->MODER &= ~(3<<2*12);
     GPIOF->MODER |= (1<<2*12);         /* 输出 */
     /* 端口输出类型寄存器 */
-    GPIOF ->OTYPER &= ~(1<<12);
+    GPIOF ->OTYPER &= ~(1<<12);        /* 推挽 */
     /* 端口输出速度寄存器 */
-    GPIOF->OSPEEDR |= (3<<2*12);       /* 推挽 */
+    GPIOF->OSPEEDR |= (3<<2*12);
 
     /* PG口   PG：12 */
     /* 端口模式寄存器 */
     GPIOG->MODER &= ~(3<<2*12);
     GPIOG->MODER |= (1<<2*12);         /* 输出 */
     /* 端口输出类型寄存器 */
-    GPIOG->OTYPER &= ~(1<<12);
+    GPIOG->OTYPER &= ~(1<<12);         /* 推挽 */
     /* 端口输出速度寄存器 */
-    GPIOG->OSPEEDR |= (3<<2*12);       /* 推挽 */
+    GPIOG->OSPEEDR |= (3<<2*12);
 
     LCD_CS_H;      /* 片选拉高 */
     LCD_WR_H;      /* 写使能拉高 */

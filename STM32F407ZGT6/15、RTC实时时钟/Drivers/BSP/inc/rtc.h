@@ -1,5 +1,5 @@
-#ifndef _RTC_H
-#define _RTC_H
+#ifndef __RTC_H
+#define __RTC_H
 
     /****************   外部头文件声明   ****************/
     #include "sys.h"

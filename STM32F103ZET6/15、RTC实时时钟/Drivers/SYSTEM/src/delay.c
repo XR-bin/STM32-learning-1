@@ -67,6 +67,7 @@ void delay1_ms(uint16_t ms)
 void delay_ms(uint16_t ms)
 {
     uint16_t i,n=0;
+
     if(ms <= 1864)
     {
         delay1_ms(ms);

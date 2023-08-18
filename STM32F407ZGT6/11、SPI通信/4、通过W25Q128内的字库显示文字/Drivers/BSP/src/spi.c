@@ -26,9 +26,9 @@
 * @param    ：void
 * @retval   ：void
 * @details  ：
-*            PB3   SPI2_SCK   时钟线  复用推挽
-*            PB4   SPI2_MISO  主输入  复用推挽
-*            PB5   SPI2_MOSI  主输出  复用推挽
+*            PB3   SPI1_SCK   时钟线  复用推挽
+*            PB4   SPI1_MISO  主输入  复用推挽
+*            PB5   SPI1_MOSI  主输出  复用推挽
 *            极性：SCK为低电平为空闲状态
 *            相位：数据采样从第一个时钟边沿开始
 * @fn       ：

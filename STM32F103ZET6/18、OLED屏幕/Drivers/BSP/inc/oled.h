@@ -1,5 +1,5 @@
-#ifndef _OLED_H
-#define _OLED_H
+#ifndef __OLED_H
+#define __OLED_H
 
     /****************   外部头文件声明   ****************/
     #include "sys.h"
@@ -18,7 +18,7 @@
 
 
 
-    /****************    函数外部声明   ****************/
+    /****************    函数外部声明   *****************/
     uint8_t OLED_Write_Command(uint8_t cmd);                  /* 对OLE屏发送指令 */
     uint8_t OLED_Write_Data(uint8_t data);                    /* 对OLE屏发送数据 */
     void OLED_WR_Byte(uint8_t Byte, uint8_t DC);              /* 对OLE屏发送指令/数据 */

@@ -1,5 +1,5 @@
 ..\..\output\key.o: ..\..\Drivers\BSP\src\key.c
-..\..\output\key.o: ..\..\Drivers\SYSTEM\inc\delay.h
+..\..\output\key.o: ..\..\Drivers\BSP\inc\key.h
 ..\..\output\key.o: ..\..\Drivers\SYSTEM\inc\sys.h
 ..\..\output\key.o: ..\..\Drivers\Libraries\stm32f1xx.h
 ..\..\output\key.o: ..\..\Drivers\Libraries\stm32f103xe.h
@@ -9,4 +9,4 @@
 ..\..\output\key.o: ..\..\Drivers\Libraries\cmsis_compiler.h
 ..\..\output\key.o: ..\..\Drivers\Libraries\cmsis_armcc.h
 ..\..\output\key.o: ..\..\Drivers\Libraries\system_stm32f1xx.h
-..\..\output\key.o: ..\..\Drivers\BSP\inc\key.h
+..\..\output\key.o: ..\..\Drivers\SYSTEM\inc\delay.h

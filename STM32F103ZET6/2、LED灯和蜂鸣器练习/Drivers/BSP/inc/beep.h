@@ -7,8 +7,8 @@
 
 
     /********************   ºê¶¨Òå   ********************/
-    #define BEEP_ON  GPIOB->ODR |= (1<<8)
-    #define BEEP_OFF GPIOB->ODR &= ~(1<<8)
+    #define BEEP_ON  GPIOB->ODR |= (1<<8)        /* ¿ª·äÃùÆ÷ */
+    #define BEEP_OFF GPIOB->ODR &= ~(1<<8)       /* ¹Ø·äÃùÆ÷ */
 
 
 

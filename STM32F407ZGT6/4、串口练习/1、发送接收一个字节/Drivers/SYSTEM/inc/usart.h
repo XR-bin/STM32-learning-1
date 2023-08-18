@@ -1,5 +1,5 @@
-#ifndef _USART_H
-#define _USART_H
+#ifndef __USART_H
+#define __USART_H
 
     /****************   外部头文件声明   ****************/
     #include "sys.h" 

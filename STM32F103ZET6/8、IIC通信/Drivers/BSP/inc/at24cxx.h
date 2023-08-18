@@ -1,5 +1,5 @@
-#ifndef _AT24C04_H
-#define _AT24C04_H
+#ifndef __AT24CXX_H
+#define __AT24CXX_H
 
     /****************   外部头文件声明   ****************/
     #include "sys.h"

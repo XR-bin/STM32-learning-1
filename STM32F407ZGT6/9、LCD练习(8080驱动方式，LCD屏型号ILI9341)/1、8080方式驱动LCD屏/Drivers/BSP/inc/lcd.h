@@ -1,5 +1,5 @@
-#ifndef _LCD_H
-#define _LCD_H
+#ifndef __LCD_H
+#define __LCD_H
 
     /****************   外部头文件声明   ****************/
     #include "sys.h"
@@ -28,10 +28,10 @@
     #define LCD_CS_H    GPIOG->ODR |= (1<<12)      /* 片选失能 */
     #define LCD_CS_L    GPIOG->ODR &= ~(1<<12)     /* 片选使能 */
     /* 写使能 */
-    #define LCD_WR_H    GPIOD->ODR |= (1<<5) 
+    #define LCD_WR_H    GPIOD->ODR |= (1<<5)       /* 写失能 */
     #define LCD_WR_L    GPIOD->ODR &= ~(1<<5)      /* 写使能 */
     /* 读使能 */
-    #define LCD_RD_H    GPIOD->ODR |= (1<<4) 
+    #define LCD_RD_H    GPIOD->ODR |= (1<<4)       /* 读失能 */
     #define LCD_RD_L    GPIOD->ODR &= ~(1<<4)      /* 读使能 */
     /* 数据命令选择线 */
     #define LCD_DC_H    GPIOF->ODR |= (1<<12)      /* 收发数据 */

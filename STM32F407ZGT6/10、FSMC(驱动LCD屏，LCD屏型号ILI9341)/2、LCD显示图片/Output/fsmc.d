@@ -10,4 +10,3 @@
 ..\..\output\fsmc.o: ..\..\Drivers\Libraries\cmsis_armcc.h
 ..\..\output\fsmc.o: ..\..\Drivers\Libraries\mpu_armv7.h
 ..\..\output\fsmc.o: ..\..\Drivers\Libraries\system_stm32f4xx.h
-..\..\output\fsmc.o: D:\study\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h

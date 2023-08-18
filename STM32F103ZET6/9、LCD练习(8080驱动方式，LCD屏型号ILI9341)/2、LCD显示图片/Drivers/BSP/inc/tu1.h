@@ -1,6 +1,12 @@
-#ifndef _TU1_H
-#define _TU1_H
+#ifndef __TU1_H
+#define __TU1_H
 
-    extern const unsigned char gImage_tu1[204808];
+    /****************   外部头文件声明   ****************/
+    #include "sys.h"
+
+
+
+    /****************    变量外部声明   *****************/
+    extern const uint8_t gImage_tu1[204808];
 
 #endif

@@ -38,9 +38,9 @@ void MyGPIO_AF_Set(GPIO_TypeDef* GPIOx, uint32_t BITx, uint8_t AFx)
     for(i=0;i<16;i++)
     {
         pos = i;
-        if((1<<pos)&BITx)  //判断该引脚是否要复用
+        if((1<<pos)&BITx)  /* 判断该引脚是否要复用 */
         {
-            //pos>>3是用于判断是高位引脚还是地位引脚
+            /* pos>>3是用于判断是高位引脚还是地位引脚 */
             GPIOx->AFR[pos>>3]&=~(0X0F<<((pos&0X07)*4));
             GPIOx->AFR[pos>>3]|=(uint32_t)AFx<<((pos&0X07)*4);
         }

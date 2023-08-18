@@ -13,7 +13,7 @@ int main(void)
 {
     sys_stm32_clock_init(336, 8, 2, 7);     /* 设置时钟,168Mhz */
     SysTick_Init();                         /* 延时初始化 */
-    LCD_ILI9341_Init();       /* ILI9341的LCD屏初始化 */
+    LCD_ILI9341_Init();                     /* ILI9341的LCD屏初始化 */
 
     /**
     * 注意：tu1和tu2的图片格式是不是一样的

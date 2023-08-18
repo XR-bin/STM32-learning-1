@@ -57,7 +57,7 @@ void USART1_Init(uint32_t baud)
     /* 将编码值写入具体中断源 */
 //    NVIC_SetPriority(USART1_IRQn,pri);
     /* 使能NVIC响应通道 */
-//    NVIC_EnableIRQ(USART1_IRQn); 
+//    NVIC_EnableIRQ(USART1_IRQn);
 
     /* 串口使能 */
     USART1->CR1 |= (1<<13);

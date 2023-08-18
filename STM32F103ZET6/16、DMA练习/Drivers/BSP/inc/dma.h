@@ -1,5 +1,5 @@
-#ifndef _DMA_H
-#define _DMA_H
+#ifndef __DMA_H
+#define __DMA_H
 
     /****************   外部头文件声明   ****************/
     #include "sys.h"

@@ -11,7 +11,7 @@ int main(void)
     sys_stm32_clock_init(336, 8, 2, 7);     /* 设置时钟,168Mhz */
     SysTick_Init();                         /* 延时初始化 */
     USART1_Init(115200);                    /* 串口1初始化 115200 */
-    ADC3_In5_Init();                        /* ADC3通道6初始化 */
+    ADC3_In5_Init();                        /* ADC3通道5初始化 */
 
     while(1)
     {

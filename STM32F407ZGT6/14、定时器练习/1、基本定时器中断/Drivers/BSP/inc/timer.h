@@ -1,5 +1,5 @@
-#ifndef _TIMER_H
-#define _TIMER_H
+#ifndef __TIMER_H
+#define __TIMER_H
 
     /****************   外部头文件声明   ****************/
     #include "sys.h"

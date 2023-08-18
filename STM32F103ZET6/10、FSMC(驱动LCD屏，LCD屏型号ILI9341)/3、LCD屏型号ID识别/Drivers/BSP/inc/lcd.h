@@ -1,5 +1,5 @@
-#ifndef _LCD_H
-#define _LCD_H
+#ifndef __LCD_H
+#define __LCD_H
 
     /****************   外部头文件声明   ****************/
     #include "sys.h"

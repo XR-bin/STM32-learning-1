@@ -27,6 +27,7 @@
 * @param    £ºvoid
 * @retval   £ºvoid
 * @details  £º
+*             SPI_CS     PB12
 * @fn       £º
 ************************************************************/
 void NorFlash_Init(void)

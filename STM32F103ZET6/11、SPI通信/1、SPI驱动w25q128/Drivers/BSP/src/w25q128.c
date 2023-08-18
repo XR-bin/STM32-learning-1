@@ -40,6 +40,7 @@
 * @param    £ºvoid
 * @retval   £ºvoid
 * @details  £º
+*             SPI_CS     PB12
 * @fn       £º
 ************************************************************/
 void W25Q128_Init(void)

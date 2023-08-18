@@ -60,7 +60,7 @@
     void sys_nvic_ex_config(GPIO_TypeDef *p_gpiox, uint16_t pinx, uint8_t tmode);   /* 外部中断配置函数,只针对GPIOA~GPIOK */
     void sys_gpio_remap_set(uint8_t pos, uint8_t bit, uint8_t val);                 /* GPIO REMAP 设置 */
     void sys_gpio_set(GPIO_TypeDef *p_gpiox, uint16_t pinx, uint32_t mode, 
-                      uint32_t otype, uint32_t ospeed, uint32_t pupd);              /*  GPIO通用设置 */
+                    uint32_t otype, uint32_t ospeed, uint32_t pupd);                /*  GPIO通用设置 */
     void sys_gpio_pin_set(GPIO_TypeDef *p_gpiox, uint16_t pinx, uint8_t status);    /* 设置GPIO某个引脚的输出状态 */
     uint8_t sys_gpio_pin_get(GPIO_TypeDef *p_gpiox, uint16_t pinx);                 /* 读取GPIO某个引脚的状态 */
     void sys_standby(void);                     /* 进入待机模式 */

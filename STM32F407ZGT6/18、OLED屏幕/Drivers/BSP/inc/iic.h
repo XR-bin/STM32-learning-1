@@ -1,5 +1,5 @@
-#ifndef _IIC_H
-#define _IIC_H
+#ifndef __IIC_H
+#define __IIC_H
 
     /****************   外部头文件声明   ****************/
     #include "sys.h"
@@ -11,7 +11,7 @@
     /* SCL: */
     #define SCL_H      (GPIOB->ODR |= (1<<8))    /* 时钟线拉高 */
     #define SCL_L      (GPIOB->ODR &= ~(1<<8))   /* 时钟线拉低 */
-    
+
     /* SDA */
     /* 输出： */
     #define SDA_OUT_H  (GPIOB->ODR |= (1<<9))    /* 输出模式下数据线拉高 */

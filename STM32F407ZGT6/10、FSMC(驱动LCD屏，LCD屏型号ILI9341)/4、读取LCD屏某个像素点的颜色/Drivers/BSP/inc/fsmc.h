@@ -1,9 +1,9 @@
-#ifndef _FSMC_H
-#define _FSMC_H
+#ifndef __FSMC_H
+#define __FSMC_H
 
     /****************   外部头文件声明   ****************/
     #include "sys.h"
-    #include "stdlib.h"
+
 
 
     /****************     结构体定义     ****************/

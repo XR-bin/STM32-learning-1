@@ -1,5 +1,5 @@
-#ifndef _W25Q128_H
-#define _W25Q128_H
+#ifndef __W25Q128_H
+#define __W25Q128_H
 
     /****************   外部头文件声明   ****************/
     #include "sys.h"

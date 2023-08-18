@@ -1,8 +1,9 @@
-#ifndef _KEY_H
-#define _KEY_H
+#ifndef __KEY_H
+#define __KEY_H
 
     /****************   外部头文件声明   ****************/
     #include "sys.h"
+    #include "delay.h"
 
 
 

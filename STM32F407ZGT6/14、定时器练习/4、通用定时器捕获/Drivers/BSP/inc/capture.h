@@ -1,5 +1,5 @@
-#ifndef _CAPTURE_H
-#define _CAPTURE_H
+#ifndef __CAPTURE_H
+#define __CAPTURE_H
 
     /****************   外部头文件声明   ****************/
     #include "sys.h"

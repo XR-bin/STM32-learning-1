@@ -42,7 +42,7 @@ void LCD_Show_HZ16(uint16_t x, uint16_t y,uint8_t *str, uint16_t color, uint16_t
     uint8_t model_hz[32];
     uint8_t i,j,temp1;
     uint16_t temp2;
-    uint32_t H,L;  //区码、位码
+    uint32_t H,L;  /* 区码、位码 */
 
     while(*str != '\0')
     {
@@ -130,7 +130,7 @@ void LCD_Show_HZ32(uint16_t x, uint16_t y,uint8_t *str, uint16_t color, uint16_t
     uint8_t i,j,k;
     uint16_t temp1;
     uint32_t temp2;
-    uint32_t H,L;  //区码、位码
+    uint32_t H,L;   /* 区码、位码 */
 
     while(*str != '\0')
     {

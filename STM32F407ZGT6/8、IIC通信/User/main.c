@@ -19,7 +19,7 @@ int main(void)
     SysTick_Init();                         /* 延时初始化 */
     USART1_Init(115200);      /* 串口1初始化  115200 */
     AT24CXX_Init();           /* AT24CXX初始化 */
-    
+
     // 注意：AT24CXX_Write_Bytes1是不能跨页操作的，这里我用的是AT24C02，一页只有8个字节
 //    err1 = AT24CXX_Write_Bytes1(0x00, sizeof(as1), as1);
 //    err2 = AT24CXX_Read_Bytes(0x00, sizeof(as1), bs);

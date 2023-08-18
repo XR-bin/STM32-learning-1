@@ -1,4 +1,6 @@
 ..\..\output\delay.o: ..\..\Drivers\SYSTEM\src\delay.c
+..\..\output\delay.o: ..\..\Drivers\SYSTEM\inc\delay.h
+..\..\output\delay.o: ..\..\Drivers\SYSTEM\inc\sys.h
 ..\..\output\delay.o: ..\..\Drivers\Libraries\stm32f4xx.h
 ..\..\output\delay.o: ..\..\Drivers\Libraries\stm32f407xx.h
 ..\..\output\delay.o: ..\..\Drivers\Libraries\core_cm4.h

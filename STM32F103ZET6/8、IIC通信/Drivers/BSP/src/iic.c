@@ -202,7 +202,7 @@ void IIC_Send_Byte(uint8_t data)
         delay_us(1);       /* 延时1us */
         SCL_H;             /* 时钟线拉高 */
         delay_us(5);       /* 延时5us */
-        
+
         data <<= 1;        /* data左移一位 */
     }
 

@@ -1,1 +1,12 @@
 ..\..\output\tu1.o: ..\..\Drivers\BSP\src\tu1.c
+..\..\output\tu1.o: ..\..\Drivers\BSP\inc\tu1.h
+..\..\output\tu1.o: ..\..\Drivers\SYSTEM\inc\sys.h
+..\..\output\tu1.o: ..\..\Drivers\Libraries\stm32f4xx.h
+..\..\output\tu1.o: ..\..\Drivers\Libraries\stm32f407xx.h
+..\..\output\tu1.o: ..\..\Drivers\Libraries\core_cm4.h
+..\..\output\tu1.o: D:\study\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\tu1.o: ..\..\Drivers\Libraries\cmsis_version.h
+..\..\output\tu1.o: ..\..\Drivers\Libraries\cmsis_compiler.h
+..\..\output\tu1.o: ..\..\Drivers\Libraries\cmsis_armcc.h
+..\..\output\tu1.o: ..\..\Drivers\Libraries\mpu_armv7.h
+..\..\output\tu1.o: ..\..\Drivers\Libraries\system_stm32f4xx.h

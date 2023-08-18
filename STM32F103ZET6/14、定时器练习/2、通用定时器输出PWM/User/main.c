@@ -11,7 +11,7 @@ int main(void)
     SysTick_Init();                   /* 延时初始化 */
     KEY_Init();                       /* 按键初始化 */
     TIM3_PWM_Init(1000, 72, 500);     /* 50%占空比 */
-    
+
     while(1)
     {
         key = KEY_Scan();

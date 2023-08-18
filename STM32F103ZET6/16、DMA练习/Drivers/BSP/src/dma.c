@@ -39,7 +39,6 @@ void DMA1_Usart1_Init(uint8_t* data)
     DMA1_Channel4->CMAR = (uint32_t)data;         /* DMA 存储器地址 */
     DMA1_Channel4->CNDTR = 0;                     /* DMA 传输长度清零, 后续在dma_enable函数设置 */
 
-
     /* DMA通道x配置寄存器 */
     DMA1_Channel4->CCR = 0;            /* 复位CCR寄存器 */
     DMA1_Channel4->CCR &= ~(1<<14);    /* 非存储器到存储器模式 */

@@ -35,11 +35,12 @@
 
 
 /**********************************************************
-* @funcName ：W25Q128_Init
-* @brief    ：W25Q128初始化
+* @funcName ：NorFlash_Init
+* @brief    ：NorFlash初始化
 * @param    ：void
 * @retval   ：void
 * @details  ：
+*             SPI_CS     PB14
 * @fn       ：
 ************************************************************/
 void NorFlash_Init(void)

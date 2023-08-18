@@ -20,10 +20,8 @@
 
 int main(void)
 {
-    uint8_t str[] = "asd123456789zxc";
-    uint8_t arr[30] = {0};
-
     sys_stm32_clock_init(336, 8, 2, 7);     /* 设置时钟,168Mhz */
+    NVIC_SetPriorityGrouping(5);            /* 5--101  2号分组方案 2 位抢占优先级， 2 位响应优先级 */
     SysTick_Init();                         /* 延时初始化 */
     USART1_Init(115200);                    /* 串口初始化  115200  使用中断*/
     LED_Init();                             /* LED初始化 */

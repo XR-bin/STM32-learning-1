@@ -9,6 +9,6 @@
 ..\..\output\main.o: ..\..\Drivers\Libraries\cmsis_armcc.h
 ..\..\output\main.o: ..\..\Drivers\Libraries\system_stm32f1xx.h
 ..\..\output\main.o: ..\..\Drivers\SYSTEM\inc\delay.h
-..\..\output\main.o: ..\..\Drivers\BSP\inc\lcd.h
 ..\..\output\main.o: ..\..\Drivers\SYSTEM\inc\usart.h
 ..\..\output\main.o: D:\study\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\main.o: ..\..\Drivers\BSP\inc\lcd.h

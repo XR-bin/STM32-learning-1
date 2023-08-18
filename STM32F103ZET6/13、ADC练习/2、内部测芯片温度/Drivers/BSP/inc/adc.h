@@ -1,5 +1,5 @@
-#ifndef _ADC_H
-#define _ADC_H
+#ifndef __ADC_H
+#define __ADC_H
 
     /****************   外部头文件声明   ****************/
     #include "sys.h"

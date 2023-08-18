@@ -23,16 +23,16 @@
 
 _m_tp_dev tp_dev =
 {
-    Touch_Init,               /* 触摸屏初始化 */
-    LCD_Touch_Calibration,    /* 触摸屏校准 */
-    Touch_Scan,               /* 获取触摸坐标 */
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
+        Touch_Init,               /* 触摸屏初始化 */
+        LCD_Touch_Calibration,    /* 触摸屏校准 */
+        Touch_Scan,               /* 获取触摸坐标 */
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
 };
 
 
@@ -388,7 +388,7 @@ TOUCH_XY Touch_Scan(uint8_t mode)
     TOUCH_XY coord;
     coord.x=0;
     coord.y=0;
-    
+
     if(T_PEN == 0)
     {
         if(mode == 0)                /* 电阻屏物理坐标 */
@@ -404,7 +404,7 @@ TOUCH_XY Touch_Scan(uint8_t mode)
             }
         }
     }
-    
+
     return coord;
 }
 
@@ -422,9 +422,9 @@ void Touch_Init(void)
 {
     tp_dev.touchtype = 0;                   /* 默认设置(电阻屏 & 竖屏) */
     tp_dev.touchtype |= lcddev.dir & 0X01;  /* 根据LCD判定是横屏还是竖屏 */
-    
+
     Touch_IO_Init();                        /* 触摸屏相关引脚配置 */
-    
+
     if(tp_dev.touchtype & 0X01)             /* 如果是横屏 */
     {
         tp_dev.comX = TOUCH_Y;

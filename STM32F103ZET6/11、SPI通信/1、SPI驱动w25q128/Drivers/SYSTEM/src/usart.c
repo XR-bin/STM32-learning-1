@@ -23,7 +23,7 @@ void USART1_Init(uint32_t baud)
     /* 端口配置寄存器 */
     GPIOA->CRH &= ~((0xf<<4*(9-8))|(0xf<<4*(10-8)));
     GPIOA->CRH |= ((11<<4*(9-8))|(4<<4*(10-8)));
-  
+
     /* 复用重映射寄存器 */
     AFIO->MAPR &= ~(1<<2);
 
@@ -57,7 +57,7 @@ void USART1_Init(uint32_t baud)
     /* 将编码值写入具体中断源 */
 //    NVIC_SetPriority(USART1_IRQn,pri);
     /* 使能NVIC响应通道 */
-//    NVIC_EnableIRQ(USART1_IRQn); 
+//    NVIC_EnableIRQ(USART1_IRQn);
 
     /* 串口使能 */
     USART1->CR1 |= (1<<13);

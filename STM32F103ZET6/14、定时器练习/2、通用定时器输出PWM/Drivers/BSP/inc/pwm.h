@@ -1,5 +1,5 @@
-#ifndef _PWM_H
-#define _PWM_H
+#ifndef __PWM_H
+#define __PWM_H
 
     /****************   外部头文件声明   ****************/
     #include "sys.h"

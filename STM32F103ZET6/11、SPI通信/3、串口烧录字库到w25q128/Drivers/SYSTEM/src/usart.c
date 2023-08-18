@@ -16,7 +16,7 @@
 ************************************************************/
 void USART1_Init(uint32_t baud)
 {
-    uint8_t pri;
+    uint32_t pri;
 
     /* GPIOx初始化设置 */
     /* GPIOx时钟使能 */
@@ -59,7 +59,7 @@ void USART1_Init(uint32_t baud)
     /* 将编码值写入具体中断源 */
     NVIC_SetPriority(USART1_IRQn,pri);
     /* 使能NVIC响应通道 */
-    NVIC_EnableIRQ(USART1_IRQn); 
+    NVIC_EnableIRQ(USART1_IRQn);
 
     /* 串口使能 */
     USART1->CR1 |= (1<<13);
@@ -173,7 +173,7 @@ void USART1_IRQHandler(void)
         data = USART1->DR;
         W25Q128_Page_Write(addr,1,&data);
         addr++;
-        
+
         /* 先读USART1->SR，再改USART1->DR，可以清除中断标志 */
         /* 或者直接修改USART1->SR，从而清除中断标志 */
         /* 我这里两种方式都用 */

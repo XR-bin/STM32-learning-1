@@ -73,6 +73,7 @@ void TIM6_Init(uint16_t arr, uint16_t psc)
 void TIM6_IRQHandler(void)
 {
     static uint8_t temp = 0;
+
     /* 判断是否定时器6中断 */
     if(TIM6->SR & (1<<0))
     {

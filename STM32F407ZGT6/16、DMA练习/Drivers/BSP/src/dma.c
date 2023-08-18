@@ -21,8 +21,8 @@
 
 
 /**********************************************************
-* @funcName ：DMA1_Usart1_Init
-* @brief    ：对DMA2的通道7进行初始化设置(连接USART1的发送通道)
+* @funcName ：DMA2_Usart1_Init
+* @brief    ：对DMA2的通道4进行初始化设置(连接USART1的发送通道)
 * @param    ：uint8_t* data (DMA存储器地址)
 * @retval   ：void
 * @details  ：
@@ -41,7 +41,7 @@ void DMA2_Usart1_Init(uint8_t ch, uint8_t* data)
     DMA2_Stream7->NDTR = 0;                      /* DMA 传输长度清零, 后续在dma_enable函数设置 */
 
     /* DMA通道x配置寄存器 */
-    DMA2_Stream7->CR = 0;           /* 复位CCR寄存器 */
+    DMA2_Stream7->CR = 0;            /* 复位CCR寄存器 */
     DMA2_Stream7->CR |= 0 << 8;      /* 非循环模式(即使用普通模式) */
     DMA2_Stream7->CR |= 0 << 9;      /* 外设非增量模式 */
     DMA2_Stream7->CR |= 0 << 11;     /* 外设数据长度:8位 */

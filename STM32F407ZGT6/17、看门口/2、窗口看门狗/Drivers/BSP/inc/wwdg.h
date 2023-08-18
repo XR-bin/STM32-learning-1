@@ -1,5 +1,5 @@
-#ifndef _WWDG_H
-#define _WWDG_H
+#ifndef __WWDG_H
+#define __WWDG_H
 
     /****************   外部头文件声明   ****************/
     #include "sys.h"

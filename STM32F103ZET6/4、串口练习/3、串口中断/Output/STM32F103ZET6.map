@@ -687,14 +687,14 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-        20          0          0          0          0        487   delay.o
-        60         10          0          0          0     419526   main.o
+        20          0          0          0          0        511   delay.o
+        60         10          0          0          0     419598   main.o
         52         18        304          0       1024        864   startup_stm32f103xe.o
-       300         24          0          0          0       1903   sys.o
-       492         52          0          8        200      30039   usart.o
+       300         24          0          0          0       1971   sys.o
+       492         52          0          8        200      30199   usart.o
 
     ----------------------------------------------------------------------
-       924        104        336          8       1224     452819   Object Totals
+       924        104        336          8       1224     453143   Object Totals
          0          0         32          0          0          0   (incl. Generated)
          0          0          0          0          0          0   (incl. Padding)
 
@@ -752,8 +752,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      1548        130        336          8       1320     453167   Grand Totals
-      1548        130        336          8       1320     453167   ELF Image Totals
+      1548        130        336          8       1320     453491   Grand Totals
+      1548        130        336          8       1320     453491   ELF Image Totals
       1548        130        336          8          0          0   ROM Totals
 
 ==============================================================================
