@@ -8,7 +8,7 @@
 
 
     /********************   宏定义   ********************/
-    /* SCL: */
+    /* SCL */
     #define SCL_H      (GPIOB->ODR |= (1<<8))    /* 时钟线拉高 */
     #define SCL_L      (GPIOB->ODR &= ~(1<<8))   /* 时钟线拉低 */
 
@@ -16,7 +16,7 @@
     /* 输出： */
     #define SDA_OUT_H  (GPIOB->ODR |= (1<<9))    /* 输出模式下数据线拉高 */
     #define SDA_OUT_L  (GPIOB->ODR &= ~(1<<9))   /* 输出模式下数据线拉低 */
-    /* 输入：*/
+    /* 输入： */
     #define SDA_IN     (GPIOB->ODR |= (1<<9))    /* 输入模式 */
     #define SDA_INT    (GPIOB->IDR & (1<<9))     /* 接收到的值 */
 

@@ -1,7 +1,7 @@
 #include "sys.h"
 #include "delay.h"
-#include "lcd.h"
 #include "usart.h"
+#include "lcd.h"
 
 int main(void)
 {

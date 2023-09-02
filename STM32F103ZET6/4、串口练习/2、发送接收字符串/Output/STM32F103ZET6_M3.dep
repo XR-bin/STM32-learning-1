@@ -1,7 +1,7 @@
 Dependencies for Project 'STM32F103ZET6', Target 'M3': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
 F (..\..\Drivers\Libraries\arm\startup_stm32f103xe.s)(0x5FFEEE4A)(--cpu Cortex-M3 -g --apcs=interwork -ID:\study\Keil_v5\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include--pd "__UVISION_VERSION SETA 535" --pd "STM32F10X_HD SETA 1"--list ..\..\output\startup_stm32f103xe.lst --xref -o ..\..\output\startup_stm32f103xe.o --depend ..\..\output\startup_stm32f103xe.d)
-F (..\..\User\main.c)(0x64DB43CA)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers -I ..\..\Drivers\BSP -I ..\..\Drivers\BSP\inc -I ..\..\Drivers\Libraries -I ..\..\Drivers\SYSTEM -I ..\..\Drivers\SYSTEM\inc -I ..\..\User -I ..\..\User\inc-ID:\study\Keil_v5\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="535" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\main.o --omf_browse ..\..\output\main.crf --depend ..\..\output\main.d)
+F (..\..\User\main.c)(0x64EB1237)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers -I ..\..\Drivers\BSP -I ..\..\Drivers\BSP\inc -I ..\..\Drivers\Libraries -I ..\..\Drivers\SYSTEM -I ..\..\Drivers\SYSTEM\inc -I ..\..\User -I ..\..\User\inc-ID:\study\Keil_v5\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="535" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\main.o --omf_browse ..\..\output\main.crf --depend ..\..\output\main.d)
 I (..\..\Drivers\SYSTEM\inc\sys.h)(0x64DB3C07)
 I (..\..\Drivers\Libraries\stm32f1xx.h)(0x5FFEEE4A)
 I (..\..\Drivers\Libraries\stm32f103xe.h)(0x5FFEEE4A)

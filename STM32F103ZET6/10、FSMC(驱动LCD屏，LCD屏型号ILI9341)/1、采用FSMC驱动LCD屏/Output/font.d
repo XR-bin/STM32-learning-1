@@ -1,4 +1,5 @@
 ..\..\output\font.o: ..\..\Drivers\BSP\src\font.c
+..\..\output\font.o: ..\..\Drivers\BSP\inc\font.h
 ..\..\output\font.o: ..\..\Drivers\SYSTEM\inc\sys.h
 ..\..\output\font.o: ..\..\Drivers\Libraries\stm32f1xx.h
 ..\..\output\font.o: ..\..\Drivers\Libraries\stm32f103xe.h

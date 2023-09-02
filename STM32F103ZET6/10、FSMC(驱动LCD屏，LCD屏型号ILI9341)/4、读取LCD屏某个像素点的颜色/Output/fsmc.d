@@ -9,4 +9,3 @@
 ..\..\output\fsmc.o: ..\..\Drivers\Libraries\cmsis_compiler.h
 ..\..\output\fsmc.o: ..\..\Drivers\Libraries\cmsis_armcc.h
 ..\..\output\fsmc.o: ..\..\Drivers\Libraries\system_stm32f1xx.h
-..\..\output\fsmc.o: D:\study\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h

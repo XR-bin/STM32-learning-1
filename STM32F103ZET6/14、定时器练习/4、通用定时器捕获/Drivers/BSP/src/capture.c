@@ -75,7 +75,7 @@ void TIM4_Capture_Init(uint16_t arr, uint16_t psc)
     TIM4->CCER |= (1<<5);        /* 下降沿捕获 */
     TIM4->CCER |= (1<<4);        /* 使能捕获 */
 
-    //中断还能寄存器
+    //中断使能寄存器
     TIM4->DIER |= (1<<1);        /* 使能 CC1 中断 */
     TIM4->DIER |= (1<<2);        /* 使能 CC2 中断 */
 

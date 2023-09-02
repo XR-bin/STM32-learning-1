@@ -9,7 +9,6 @@
 ..\..\output\lcd.o: ..\..\Drivers\Libraries\cmsis_compiler.h
 ..\..\output\lcd.o: ..\..\Drivers\Libraries\cmsis_armcc.h
 ..\..\output\lcd.o: ..\..\Drivers\Libraries\system_stm32f1xx.h
-..\..\output\lcd.o: ..\..\Drivers\BSP\inc\fsmc.h
-..\..\output\lcd.o: D:\study\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\..\output\lcd.o: ..\..\Drivers\SYSTEM\inc\delay.h
+..\..\output\lcd.o: ..\..\Drivers\BSP\inc\fsmc.h
 ..\..\output\lcd.o: ..\..\Drivers\BSP\inc\font.h

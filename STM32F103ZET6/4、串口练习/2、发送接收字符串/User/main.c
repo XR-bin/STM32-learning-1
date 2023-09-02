@@ -4,7 +4,7 @@
 
 int main(void)
 {
-    uint8_t str[20];
+    uint8_t str[200];
 
     sys_stm32_clock_init(9);  /* 系统时钟初始化*/
     SysTick_Init();           /* 延时初始化 */
